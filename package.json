@@ -1,0 +1,38 @@
+{
+  "name": "pwangling.cms",
+  "version": "1.0.0",
+  "description": "update pwangling website to use a CMS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jason Brewster",
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.2",
+    "bourbon": "^6.0.0",
+    "browser-sync": "^2.26.7",
+    "font-awesome": "^4.7.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-cache": "^1.1.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-file-include": "^2.0.1",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8",
+    "normalize.css": "^8.0.1"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pwangling-developer/pwangling.cms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pwangling-developer/pwangling.cms/issues"
+  },
+  "homepage": "https://github.com/pwangling-developer/pwangling.cms#readme"
+}

@@ -1,0 +1,7 @@
+source: ./src/html
+destination: ./public
+keep_files:
+  - images
+  - css
+  - js
+  - fonts

@@ -1,0 +1,24 @@
+.cookie-desc {
+    color: $info-text-primary;
+    background-color: $info-primary;
+    margin: 0.5em;
+    padding: 0.5em 0.8em;
+
+  }
+
+.cookie-desc-card {
+    a {
+        color: $info-text-accent;
+        text-decoration: underline;
+    }
+
+    a:visited {
+        color: $info-text-primary;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color:$info-text-secondary;
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,92 @@
+header{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    color:              $brand-primary;
+    background-color:   $brand-accent;
+    padding: 15px 15px;
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 0.5em;
+
+    &::after {
+        clear: both;
+    }
+}
+.contact-info {
+    // font-family: cursive, sans-serif;
+    // font-family: 'Roboto', sans-serif;    
+    font-family: 'Source Sans Pro', sans-serif;
+    display: block;
+    float: left;
+    text-align: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 30%;
+
+    h1 {
+        margin-top: 0;
+        margin-bottom: 0.5em;
+        font-size: 3.0em;
+    }
+    
+    h3 {
+        font-size: 1.5em;
+    }
+
+    h4 {
+        font-size: 1.1em;
+    }
+}
+.tagline {
+    // font-family: 'Kalam', cursive, sans-serif; //xxx
+    // font-family: 'Caveat', cursive, sans-serif; //x
+    // font-family: 'Kite One', sans-serif;  //xx
+    // font-family: 'Handlee', cursive, sans-serif;  //x
+    font-family: 'Kaushan Script', cursive, sans-serif; //xxx
+    display: block;
+    float: left;
+    white-space: normal;
+    background-color:  $brand-primary;
+    color:   $brand-accent;
+    width: 36%;
+    margin: 0 2%;
+    font-size: 2em;
+    font-weight: 600;
+    text-shadow: 4px 4px 4px #c6e6c7;
+    line-height: 1.5;
+    border-radius: 0.3em;
+    padding:0 0.8em;
+}
+.logo {
+    display: block;
+    float: left;
+    text-align: right;
+    padding: 0px 15px;
+    width: 30%;
+}
+.fas {
+    padding-right: 0.4em;
+}
+
+@media (max-width: $screen-md-min) {
+    .contact-info, .tagline, .logo {
+        display: block;
+        text-align: center;
+        margin: 0 0 0.4em 0;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: $screen-sm-min) {
+    .logo {
+        display: none;
+    }
+}
+
+@media (min-width: $screen-md-max) {
+    .tagline {
+        margin-top: 0.7em;
+    }
+}

@@ -1,0 +1,67 @@
+article {
+  background-color: $brand-secondary;
+  margin-right: auto;
+  margin-left: auto;
+  width: 90vw;
+}
+
+.two-panel-row, .three-panel-row {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  background-color: $brand-accent;
+  color: $text-colour-accent;
+  margin: 0 0.5em;
+  padding: 0.5em;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.three-panel-row::after {
+  clear: both;
+}
+
+.panel-one-of-two, .panel-two-of-two {
+  display: inline-block;
+  width: 50%;
+}
+
+.panel-one-of-three, .panel-two-of-three, .panel-three-of-three {
+  display: block;
+  float: left;
+  width: 33%;
+}
+
+.shop-desc {
+  color: $text-colour-primary;
+  background-color: $brand-primary;
+  margin: 0.5em;
+  padding: 0.5em 0.8em;
+}
+
+.map {
+  margin: 0.5em;
+}
+
+@media (max-width: $screen-md-min) {
+  .panel-one-of-three, .panel-two-of-three, .panel-three-of-three, .panel-one-of-two, .panel-two-of-two {
+    display: block;
+    width: 100%;
+  }
+
+  .panel-two-of-three {
+    padding: 0.8em 0;
+  }
+
+  article {
+    width: 100%;
+  }
+}
+
+@media (max-width: $screen-sm-min) {
+  .map {
+      display: none;
+  }
+}
+
+

@@ -1,0 +1,46 @@
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  // margin: 0.4em 0.2em;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: white;
+  padding: 0.5em 0.8em;
+  text-decoration: none;
+  font-size: 1em;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.btn-lg {
+  padding: 0.7em 1em;
+  font-size: 1.1em;
+  line-height: 1.4;
+  border-radius: 6px;
+}
+
+.btn-default {
+  background-color: $brand-secondary;
+  color: $text-colour-primary;
+  border-color: $brand-accent;
+
+  &:hover {
+    background-color: $brand-primary;
+    color: $text-colour-accent;
+  }
+}
+
+.btn-primary {
+  background-color: $brand-secondary;
+  color: $text-colour-primary;
+
+  &:hover {
+    background-color: #286090;
+    color: $info-text-primary;
+
+  }
+}
