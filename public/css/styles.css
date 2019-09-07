@@ -4578,7 +4578,7 @@ body {
   min-height: 0; }
 
 img {
-  max-width: 100%; }
+  max-width: 80%; }
 
 header {
   position: relative;
@@ -4692,7 +4692,9 @@ article {
   .panel-two-of-three {
     padding: 1.8em 3.2em; }
   article {
-    width: 100%; } }
+    width: 100%; }
+  img {
+    max-width: 98%; } }
 
 @media (max-width: 535px) {
   .map {
