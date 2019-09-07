@@ -11,7 +11,7 @@ article {
   overflow: hidden;
   background-color: $brand-accent;
   color: $text-colour-accent;
-  margin: 0 0.5em;
+  margin: 0 0.5rem -0.1rem 0.5rem;
   padding: 0.5em;
   text-align: center;
   white-space: nowrap;
@@ -23,6 +23,7 @@ article {
 
 .panel-one-of-two, .panel-two-of-two {
   display: inline-block;
+  padding: 0 0.5em;
   width: 50%;
 }
 
@@ -32,25 +33,30 @@ article {
   width: 33%;
 }
 
+.panel-two-of-three {
+  padding-top: 1.1em;
+}
+
 .shop-desc {
   color: $text-colour-primary;
   background-color: $brand-primary;
-  margin: 0.5em;
+  margin: 0.5rem;
   padding: 0.5em 0.8em;
 }
 
 .map {
-  margin: 0.5em;
+  margin: 0.5rem;
 }
 
 @media (max-width: $screen-md-min) {
   .panel-one-of-three, .panel-two-of-three, .panel-three-of-three, .panel-one-of-two, .panel-two-of-two {
     display: block;
+    font-size: 1.3rem;
     width: 100%;
   }
 
   .panel-two-of-three {
-    padding: 0.8em 0;
+    padding: 1.8em 3.2em;
   }
 
   article {
