@@ -6,14 +6,14 @@ header{
     background-color:   $brand-accent;
     padding: 1em 1em;
     text-align: center;
-    white-space: nowrap;
-    margin-bottom: 0.5em;
+    // white-space: nowrap;
+    margin-bottom: 0.5rem;
 
     &::after {
         clear: both;
     }
 }
-.contact-info {
+.contact-info, .logo {
     // font-family: cursive, sans-serif;
     // font-family: 'Roboto', sans-serif;    
     font-family: 'Source Sans Pro', sans-serif;
@@ -25,12 +25,14 @@ header{
     width: 30%;
 
     h1 {
-        margin-top: 0;
+        text-shadow: 0.01em 0.03em 0.01em $brand-shadow;
+        margin-top: 1.2rem;
         margin-bottom: 0.5rem;
-        font-size: 3.0rem;
+        font-size: 3.5rem;
     }
     
     h3 {
+        margin-top: 1.2rem;
         font-size: 1.5rem;
     }
 
@@ -61,11 +63,11 @@ header{
     padding:0 0.8em;
 }
 .logo {
-    display: block;
-    float: left;
+    // display: block;
+    // float: left;
     text-align: right;
-    padding: 0 1em;
-    width: 30%;
+    // padding: 0 1em;
+    // width: 30%;
 }
 .fas {
     padding-right: 0.4em;
@@ -75,20 +77,20 @@ header{
     .contact-info, .tagline, .logo {
         display: block;
         text-align: center;
-        margin: 0 0 0.4em 0;
+        margin: 0 0 1.2rem 0;
         width: 100%;
     }
 
 }
 
-@media (max-width: $screen-sm-min) {
-    .logo {
-        display: none;
-    }
-}
+// @media (max-width: $screen-sm-min) {
+//     .logo {
+//         display: none;
+//     }
+// }
 
-@media (min-width: $screen-md-max) {
-    .tagline {
-        margin-top: 1.5rem;
-    }
-}
+// @media (min-width: $screen-md-max) {
+//     .tagline {
+//         margin-top: 0.5rem;
+//     }
+// }
