@@ -1,12 +1,12 @@
 .cookie-desc {
-    color: $info-text-primary;
     background-color: $info-primary;
-    margin: 0.5em;
-    padding: 0.5em 0.8em;
-
+    margin: .5em;
+    padding: .5em .8em;
   }
 
 .cookie-desc-card {
+    color: $info-text-primary;
+
     a {
         color: $info-text-accent;
         text-decoration: underline;
@@ -19,6 +19,15 @@
     
     a:hover {
         color:$info-text-secondary;
-        text-decoration: underline;
+        text-decoration: none;
+
+    }
+}
+
+.cookie-nav-home {
+    text-align: center;
+
+    a {
+        text-decoration: none;
     }
 }

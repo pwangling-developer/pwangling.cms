@@ -2,15 +2,19 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background-color:   $body-bg-colour;
   background-image:   linear-gradient(to bottom, #999 0%, #000 100%);
   margin: 0;
   padding-top:        $navbarHeight;
   min-height:         $pageMinHeight;
-}
-
-img {
-  max-width: 80%;
 }

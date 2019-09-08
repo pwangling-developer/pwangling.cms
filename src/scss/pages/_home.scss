@@ -3,6 +3,11 @@ article {
   margin-right: auto;
   margin-left: auto;
   width: 90vw;
+
+  img {
+    max-width: 80%;
+  }
+  
 }
 
 .two-panel-row, .three-panel-row {
@@ -11,8 +16,8 @@ article {
   overflow: hidden;
   background-color: $brand-accent;
   color: $text-colour-accent;
-  margin: 0 0.5rem -0.1rem 0.5rem;
-  padding: 0.5em;
+  margin: 0 .5rem -.1rem .5rem;
+  padding: .5em;
   text-align: center;
   white-space: nowrap;
 }
@@ -23,7 +28,7 @@ article {
 
 .panel-one-of-two, .panel-two-of-two {
   display: inline-block;
-  padding: 0 0.5em;
+  padding: 0 .5em;
   width: 50%;
 }
 
@@ -40,12 +45,12 @@ article {
 .shop-desc {
   color: $text-colour-primary;
   background-color: $brand-primary;
-  margin: 0.5rem;
-  padding: 0.5em 0.8em;
+  margin: .5rem;
+  padding: .5em .8em;
 }
 
 .map {
-  margin: 0.5rem;
+  margin: .5rem;
 }
 
 @media (max-width: $screen-md-min) {

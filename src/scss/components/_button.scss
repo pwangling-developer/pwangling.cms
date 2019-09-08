@@ -1,46 +1,61 @@
+/*!
+ * Button variables (and defaults) as follows:
+ */
+$btn-default-color: #333 !default;
+$btn-default-background: #fff !default;
+$btn-primary-color: #fff !default;
+$btn-primary-background: #337ab7 !default;
+
 .btn {
   display: inline-block;
   margin-bottom: 0;
-  // margin: 0.4em 0.2em;
   font-weight: 400;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  color: white;
-  padding: 0.5em 0.8em;
-  text-decoration: none;
+  border: .06em solid transparent;
+  border-radius: .25em;
+  padding: .375em .75em;
   font-size: 1em;
+  line-height: 1.5;
   cursor: pointer;
-  transition-duration: 0.2s;
+  user-select: none;
+  touch-action: manipulation;
+  transition-duration: .2s;
+}
+
+.btn-sm {
+  font-size: .875em;
+  border-radius: .2em;
+  padding: .25em .5em;
+  line-height: 1.5;
 }
 
 .btn-lg {
-  padding: 0.7em 1em;
-  font-size: 1.1em;
-  line-height: 1.4;
-  border-radius: 6px;
+  font-size: 1.125em;
+  padding: 0.5em 1em;
+  border-radius: .3em;
+  line-height: 1.5;
 }
 
 .btn-default {
-  background-color: $brand-secondary;
-  color: $text-colour-primary;
-  border-color: $brand-accent;
+  color: $btn-default-color;
+  background-color: $btn-default-background;
+  border-color: darken($btn-default-background,7.5%);
 
   &:hover {
-    background-color: $brand-primary;
-    color: $text-colour-accent;
+    background-color: darken($btn-default-background,10%);
+    border-color: darken($btn-default-background,12.5%);
   }
 }
 
 .btn-primary {
-  background-color: $brand-secondary;
-  color: $text-colour-primary;
+  color: $btn-primary-color;
+  background-color: $btn-primary-background;
+  border-color: darken($btn-primary-background,7.5%);
 
   &:hover {
-    background-color: #286090;
-    color: $info-text-primary;
-
+    background-color: darken($btn-primary-background,10%);
+    border-color: darken($btn-primary-background,12.5%);
   }
 }

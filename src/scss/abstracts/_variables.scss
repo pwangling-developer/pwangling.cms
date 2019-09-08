@@ -1,13 +1,17 @@
 $brand-primary:  #4CAF50;
-$brand-shadow: #c6e6c7;
 $brand-secondary: #fff;
 $brand-accent:    #252525;
+$brand-shadow: #c6e6c7;
+// $btn-default-color: $brand-secondary;
+// $btn-default-background: $brand-primary;
+
 $info-primary:  #2196F3;
 $info-text-primary:  $brand-secondary;
 $info-text-accent: #286090;
 $info-text-secondary: #204d74;
 $text-colour-primary: #000;
 $text-colour-accent: #fff;
+
 $screen-sm-min: 535px;
 $screen-md-min: 991px;
 $screen-md-max: 1472px;
@@ -18,7 +22,7 @@ $page-padding-bottom: 20px;
 
 $navbarHeight: 0;
 
-$pageMinHeight: 0;
+$pageMinHeight: 100vh;
 
 $colour-info:   #5bc0de;
 $colour-warning: #ffc107;
