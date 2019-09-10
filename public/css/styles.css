@@ -9,7 +9,6 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:700|Kaushan+Script&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -344,6 +343,12 @@ template {
 .fa-map-marker-alt:before {
   content: "\f3c5"; }
 
+.fa-phone-alt:before {
+  content: "\f879"; }
+
+.fa-envelope:before {
+  content: "\f0e0"; }
+
 .sr-only {
   border: 0;
   clip: rect(0, 0, 0, 0);
@@ -460,38 +465,44 @@ header {
     clear: both; }
 
 .contact-info, .logo {
-  font-family: 'Source Sans Pro', sans-serif;
   display: block;
   float: left;
   text-align: left;
   padding-right: 1em;
   padding-left: 1em;
-  width: 30%; }
+  width: 33%; }
+  .contact-info img, .logo img {
+    margin-top: 1.2rem;
+    max-width: 100%; }
   .contact-info h1, .logo h1 {
     margin-top: 1.2rem;
-    margin-bottom: .5rem;
     font-size: 3.5rem; }
   .contact-info h3, .logo h3 {
     margin-top: 1.2rem;
+    margin-bottom: 0;
     font-size: 1.5rem; }
   .contact-info h4, .logo h4 {
+    margin-top: 0.8rem;
+    margin-bottom: 0;
     font-size: 1.1rem; }
 
 .tagline {
-  font-family: 'Kaushan Script', cursive, sans-serif;
-  letter-spacing: .09em;
   display: block;
   float: left;
   white-space: normal;
   background-color: #4CAF50;
   color: #252525;
-  width: 36%;
+  width: 30%;
   margin: 0 2%;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 400;
+  font-style: italic;
   line-height: 1.5;
   border-radius: .3em;
-  padding: 0 .8em; }
+  padding: 0 .2em; }
+  .tagline img {
+    margin-top: 1.2rem;
+    max-width: 70%; }
 
 .logo {
   text-align: right; }
@@ -510,7 +521,8 @@ article {
   background-color: #fff;
   margin-right: auto;
   margin-left: auto;
-  width: 90vw; }
+  width: 90vw;
+  max-width: 1200px; }
   article img {
     max-width: 80%; }
 
